@@ -1,0 +1,7 @@
+/administrator/.htaccess
+/administrator/.htpasswd
+/configuration.php
+/docs.zip
+/fonts/
+/images/
+/tmp/

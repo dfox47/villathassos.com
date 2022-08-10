@@ -1,0 +1,133 @@
+
+
+
+$c_blue_light2:         #109b96;
+$c_blue_light_text:     #009fe2;
+$c_border:              #ccc;
+$c_error:               #fe595d;
+$c_green_bg:            #59992b;
+$c_grey_bg:             #595959; // rgba(0,0,0, .65)
+$c_grey_dark:           #777;
+$c_grey_light_text:     #999;
+$c_input_bg:            #f2f2f2;
+$c_violent_logo:        #9d66a8;
+$c_yellow:              #e6a902;
+
+
+
+$font_main:                 'gotham_light',         Arial, Helvetica, sans-serif;
+$font_arial:                Arial, Helvetica, sans-serif;
+$font_gotham_black:         'gotham_black',         Arial, Helvetica, sans-serif;
+$font_gotham_bold:          'gotham_bold',          Arial, Helvetica, sans-serif;
+$font_gotham_light:         'gotham_light',         Arial, Helvetica, sans-serif;
+$font_gotham_med:           'gotham_med',           Arial, Helvetica, sans-serif;
+$font_gotham_reg:           'gotham_reg',           Arial, Helvetica, sans-serif;
+$font_oranienbaum_reg:      'oranienbaum_reg',      Arial, Helvetica, sans-serif;
+$font_pfdin_italic:         'pfdin_italic',         Arial, Helvetica, sans-serif;
+$font_pfdin_light:          'pfdin_light',          Arial, Helvetica, sans-serif;
+$font_pfdin_light_italic:   'pfdin_light_italic',   Arial, Helvetica, sans-serif;
+
+
+
+$transition: all .3s ease-in-out;
+
+
+
+// media
+$desktop:   'only screen and (max-width: 1279px)';
+$tablet:    'only screen and (max-width: 1023px)';
+$mobile:    'only screen and (max-width: 767px)';
+
+
+
+@font-face {
+	font-family: 'gotham_black';
+	src: url('/fonts/gotham_black.eot');
+	src: url('/fonts/gotham_black.eot?#iefix')format("embedded-opentype"),
+	url('/fonts/gotham_black.woff') format("woff"),
+	url('/fonts/gotham_black.ttf') format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'gotham_bold';
+	src: url('/fonts/gotham_bold.eot');
+	src: url('/fonts/gotham_bold.eot?#iefix')format("embedded-opentype"),
+	url('/fonts/gotham_bold.woff') format("woff"),
+	url('/fonts/gotham_bold.ttf') format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'gotham_light';
+	src: url('/fonts/gotham_light.eot');
+	src: url('/fonts/gotham_light.eot?#iefix')format("embedded-opentype"),
+	url('/fonts/gotham_light.woff') format("woff"),
+	url('/fonts/gotham_light.ttf') format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'gotham_med';
+	src: url('/fonts/gotham_med.eot');
+	src: url('/fonts/gotham_med.eot?#iefix')format("embedded-opentype"),
+	url('/fonts/gotham_med.woff') format("woff"),
+	url('/fonts/gotham_med.ttf') format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'gotham_reg';
+	src: url('/fonts/gotham_reg.eot');
+	src: url('/fonts/gotham_reg.eot?#iefix')format("embedded-opentype"),
+	url('/fonts/gotham_reg.woff') format("woff"),
+	url('/fonts/gotham_reg.ttf') format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'oranienbaum_reg';
+	src: url('/fonts/oranienbaum_reg.eot');
+	src: url('/fonts/oranienbaum_reg.eot?#iefix')format("embedded-opentype"),
+	url('/fonts/oranienbaum_reg.woff') format("woff"),
+	url('/fonts/oranienbaum_reg.ttf') format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'pfdin_italic';
+	src: url('/fonts/pfdin_italic.eot');
+	src: url('/fonts/pfdin_italic.eot?#iefix')format("embedded-opentype"),
+	url('/fonts/pfdin_italic.woff') format("woff"),
+	url('/fonts/pfdin_italic.ttf') format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'pfdin_light';
+	src: url('/fonts/pfdin_light.eot');
+	src: url('/fonts/pfdin_light.eot?#iefix')format("embedded-opentype"),
+	url('/fonts/pfdin_light.woff') format("woff"),
+	url('/fonts/pfdin_light.ttf') format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'pfdin_light_italic';
+	src: url('/fonts/pfdin_light_italic.eot');
+	src: url('/fonts/pfdin_light_italic.eot?#iefix')format("embedded-opentype"),
+	url('/fonts/pfdin_light_italic.woff') format("woff"),
+	url('/fonts/pfdin_light_italic.ttf') format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+

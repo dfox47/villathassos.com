@@ -1,0 +1,121 @@
+
+
+
+.feedback {
+	margin: 0 auto;
+	max-width: 450px;
+	padding: 150px 30px;
+	position: relative;
+	width: 100%;
+
+	input {
+		background-color: $c_input_bg;
+		color: #000;
+		font-size: 18px;
+		text-align: center;
+		text-transform: uppercase;
+		width: 100%;
+
+		&[type="submit"] {
+			left: -9999px;
+			position: absolute;
+		}
+	}
+
+	textarea {
+		background-color: $c_input_bg;
+		color: #000;
+		font-size: 20px;
+		height: 140px;
+		padding: 1em;
+		text-align: center;
+		text-transform: uppercase;
+		width: 100%;
+	}
+}
+
+.feedback_form {
+	overflow: hidden;
+}
+
+.feedback_fail {}
+
+
+
+.feedback_field {
+	display: block;
+	margin: 0 0 30px;
+	position: relative;
+	text-align: center;
+}
+
+
+
+.feedback_incomplete {}
+
+.feedback_input_send {
+	font-size: 2em;
+	letter-spacing: .25em;
+	padding: 1.2em 2em;
+	text-transform: uppercase;
+	width: 100%;
+}
+
+.feedback_message {}
+
+
+
+.feedback_send_wrapper {
+	position: relative;
+}
+
+.feedback_sending {}
+
+.feedback_status {
+	background-color: $c_error;
+	color: #fff;
+	font-size: 22px;
+	height: 100%;
+	left: -9999px;
+	opacity: 0;
+	padding: 1em;
+	position: absolute;
+	text-align: center;
+	text-transform: uppercase;
+	top: 0;
+	transition: opacity .3s ease-in-out;
+	width: 100%;
+
+	&.active {
+		left: 0;
+		opacity: 1;
+	}
+
+	&.feedback_sending,
+	&.feedback_success {
+		background-color: $c_green_bg;
+	}
+}
+
+.feedback_submit {
+	background-color: #000;
+	border: 1px solid rgba(#000, .99);
+	color: #fff;
+	cursor: pointer;
+	display: block;
+	font-size: 22px;
+	padding: 1em;
+	text-align: center;
+	text-transform: uppercase;
+	transition: $transition;
+	width: 100%;
+
+	&:hover {
+		background-color: #fff;
+		color: #000;
+	}
+}
+
+.feedback_success {}
+
+

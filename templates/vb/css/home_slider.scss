@@ -1,0 +1,141 @@
+
+
+
+.home_slider {
+	background-color: #000;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+
+	&__item {
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 100%;
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 100%;
+		z-index: 1;
+
+		&::after {
+			background-color: #000;
+			content: "";
+			display: block;
+			height: 100%;
+			left: 0;
+			opacity: .3;
+			position: absolute;
+			top: 0;
+			width: 100%;
+			z-index: 3;
+		}
+	}
+
+
+
+	.owl-carousel {
+		height: 100%;
+	}
+
+	.owl-item {
+		height: 100%;
+	}
+
+	.owl-stage {
+		height: 100%;
+	}
+
+	.owl-stage-outer {
+		height: 100%;
+	}
+
+	.owl-dot {
+		border-radius: 50%;
+		border: 1px solid #fff;
+		display: inline-block;
+		height: 16px;
+		margin: 0 10px 10px;
+		width: 16px;
+
+		&.active {
+			background-color: #fff;
+		}
+	}
+
+	.owl-dots {
+		bottom: 100px;
+		left: 0;
+		position: absolute;
+		text-align: center;
+		width: 100%;
+		z-index: 2;
+	}
+}
+
+.home_slider_down {
+	background-color: #fff;
+	border-radius: 100px 100px 0 0;
+	bottom: 0;
+	color: $c_grey_bg;
+	font-size: 2em;
+	height: 40px;
+	left: 50%;
+	margin: 0 0 0 -40px;
+	opacity: .5;
+	position: absolute;
+	text-align: center;
+	transition: $transition;
+	width: 80px;
+	z-index: 8;
+
+	&:hover {
+		opacity: 1;
+	}
+
+	.fa {
+		font-size: 1em;
+		line-height: 40px;
+		margin: .2em 0 0;
+	}
+}
+
+.home_slider_content {
+	color: #fff;
+	text-align: center;
+	position: relative;
+	z-index: 3;
+
+	&__slogan {
+		font-size: 30px;
+		text-shadow: 0 0 3px #fff;
+		text-transform: uppercase;
+	}
+
+	&__title {
+		font-family: $font_gotham_bold;
+		font-size: 50px;
+		margin: 0 0 .8em;
+		text-shadow: 0 0 3px #fff;
+		text-transform: uppercase;
+
+		@media #{$tablet} {
+			font-size: 34px;
+		}
+	}
+}
+
+.home_slider_wrap {
+	align-items: center;
+	background: linear-gradient(45deg, #1d4350, #a43931);
+	display: flex;
+	justify-content: center;
+	min-height: 100vh;
+	overflow: hidden;
+	position: relative;
+}
+
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.9" client="site" type="language" method="upgrade">
+	<name>Greek (el-GR)</name>
+	<tag>el-GR</tag>
+	<version>3.10.9.1</version>
+	<creationDate>Μάιος. 2022</creationDate>
+	<author>Ομάδα Μετάφρασης στα Ελληνικά: joomla. gr</author>
+	<authorEmail>contact@joomla.gr</authorEmail>
+	<authorUrl>https://www.joomla.gr</authorUrl>
+	<copyright>Copyright (C) 2005 - 2022 joomla.gr και Open Source Matters. All rights reserved.</copyright>
+	<license>Γενική Άδεια Δημόσιας Χρήσης GNU (GNU GPL), έκδοση 2 ή μεταγενέστερη; δείτε το LICENSE.txt</license>
+	<description>greek language pack for Joomla! 3.10.6</description>
+	<files>
+		<folder>/</folder>
+		<filename file="meta">install.xml</filename>
+	</files>
+	<params/>
+</extension>

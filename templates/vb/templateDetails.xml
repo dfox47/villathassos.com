@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE install PUBLIC "-//Joomla! 3/0//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/3.0/template-install.dtd">
+
+<extension version="3.0" type="template" client="site">
+	<name>vb</name>
+	<creationDate>2021.03.01</creationDate>
+	<author>powered by foxartbox</author>
+	<authorEmail>info@foxartbox.com</authorEmail>
+	<copyright>powered by foxartbox</copyright>
+	<license>GNU/GPL</license>
+	<version>1.0.0</version>
+
+	<description>Villa Thassos</description>
+
+	<files>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+	</files>
+
+	<positions>
+		<position>breadcrumbs</position>
+		<position>blocks_home</position>
+		<position>counters</position>
+		<position>header</position>
+		<position>footer</position>
+		<position>languages</position>
+		<position>topmenu</position>
+		<position>topmenu_inside</position>
+		<position>villa_1_img</position>
+		<position>villa_2_img</position>
+		<position>villa_3_img</position>
+		<position>villa_4_img</position>
+		<position>villa_book</position>
+		<position>villa_desc</position>
+		<position>villa_links</position>
+		<position>villa_price</position>
+	</positions>
+</extension>
